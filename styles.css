@@ -1,0 +1,8 @@
+#main-ad,
+#special-upgrade-sidebar,
+#board-layout-ad,
+.short-sidebar-ad-component,
+.index-content-ad-wrapper,
+.r2d2-wrapper {
+    display: none !important;
+}
