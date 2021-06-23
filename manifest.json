@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Adblock for Chess.com",
     "description": "Removes ads from Chess.com",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "icons": {
         "16": "img/icon-16x16.png",
         "32": "img/icon-32x32.png",
