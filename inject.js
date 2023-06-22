@@ -13,13 +13,4 @@ const selectors = [
     '.r2d2-wrapper'
 ]
 
-selectors.forEach(s => {
-    const el = document.querySelector(s)
-    if (el) {
-        console.log('removing', s)
-        el.remove()
-    }
-    else {
-        console.log('not found', s)
-    }
-})
+document.querySelectorAll(selectors.join(', ')).forEach((el) => el.remove());
