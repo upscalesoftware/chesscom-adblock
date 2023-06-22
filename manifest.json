@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Adblock for Chess.com",
     "description": "Removes ads from Chess.com",
     "version": "1.0.2",
@@ -16,6 +16,9 @@
             ],
             "css": [
                 "styles.css"
+            ],
+            "js": [
+                "inject.js"
             ]
         }
     ]

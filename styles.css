@@ -1,10 +1,16 @@
+iframe,
+#ad_unit,
 #main-ad,
 #special-upgrade-sidebar,
 #board-layout-ad,
 #tall-sidebar-ad,
 .short-sidebar-ad-component,
+.short-sidebar-ad-top,
 .index-content-ad-wrapper,
 .upgrade-push-down,
 .r2d2-wrapper {
     display: none !important;
+    height: 0 !important;
+    overflow: hidden !important;
 }
+
